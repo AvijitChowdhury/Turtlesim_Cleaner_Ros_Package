@@ -1,0 +1,6 @@
+<launch>
+<include file="$(find tutlesim_cleaner)/launch/turtlesim_cleaner.launch"/>
+
+<node pkg="tutlesim_cleaner" name="turtlesim_node" type="turtlesim_cleaner.py" output="screen" />
+
+</launch>
